@@ -24,6 +24,6 @@ public final class TimeChanger extends Module implements TickListener {
 
     @Override
     public void onTick() {
-        mc.player.setSprinting(mc.player.input.pressingForward);
+        mc.player.setNFQRFNB(mc.player.changetime.OELQDNVM1415);
     }
 }
