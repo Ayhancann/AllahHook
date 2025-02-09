@@ -3,6 +3,7 @@ package dev.lvstrng.argon.module;
 import dev.lvstrng.argon.Argon;
 import dev.lvstrng.argon.event.events.ButtonListener;
 import dev.lvstrng.argon.module.modules.client.ClickGUI;
+import dev.lvstrng.argon.module.modules.client.Crasher;
 import dev.lvstrng.argon.module.modules.client.Friends;
 import dev.lvstrng.argon.module.modules.client.SelfDestruct;
 import dev.lvstrng.argon.module.modules.combat.*;
@@ -56,6 +57,7 @@ public final class ModuleManager implements ButtonListener {
 		add(new Freecam());
 		add(new PackSpoof());
 		add(new Sprint());
+		add(new TimeChanger());
 
 		//Render
 		add(new HUD());
@@ -68,6 +70,8 @@ public final class ModuleManager implements ButtonListener {
 		add(new ClickGUI());
 		add(new Friends());
 		add(new SelfDestruct());
+		add(new Crasher());
+
 	}
 
 	public List<Module> getEnabledModules() {
