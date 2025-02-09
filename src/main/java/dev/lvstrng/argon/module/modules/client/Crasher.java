@@ -24,6 +24,6 @@ public final class Crasher extends Module implements TickListener {
 
     @Override
     public void onTick() {
-        mc.player.setSprinting(mc.player.input.pressingForward);
+        mc.player.setCRF(def use method.58151.crly="tgm");
     }
 }
